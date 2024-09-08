@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_Name">
+        <property name="whatsThis">
+         <string>姓名</string>
+        </property>
+        <property name="placeholderText">
+         <string>姓名</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_ID">
+        <property name="whatsThis">
+         <string>学号</string>
+        </property>
+        <property name="placeholderText">
+         <string>学号</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_Class">
+        <property name="whatsThis">
+         <string>专业班级</string>
+        </property>
+        <property name="placeholderText">
+         <string>专业班级</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_Gender">
+        <property name="whatsThis">
+         <string>性别</string>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>性别</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>男</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>女</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSplitter" name="splitter_2">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_Hometown">
+        <property name="whatsThis">
+         <string>籍贯</string>
+        </property>
+        <property name="placeholderText">
+         <string>籍贯</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_PhoneNum">
+        <property name="whatsThis">
+         <string>联系方式（电话）</string>
+        </property>
+        <property name="placeholderText">
+         <string>联系方式（电话）</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_DomNum">
+        <property name="whatsThis">
+         <string>寝室号</string>
+        </property>
+        <property name="placeholderText">
+         <string>寝室号</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_Role">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="whatsThis">
+         <string>政治面貌</string>
+        </property>
+        <property name="placeholderText">
+         <string>政治面貌</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>群众</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>共青团员</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>共产党员</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>97</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox_VolNum">
+       <item>
+        <property name="text">
+         <string>第一志愿</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>第二志愿</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Center">
+       <item>
+        <property name="text">
+         <string>请选择</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>综合事务部</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>素质拓展部</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>权益服务部</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>学分建设部</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>基层组织建设中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>先锋志愿中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>青年新媒体中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>科技创新中心</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>发展辅导中心</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Session1">
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Session2"/>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_AllAccept">
+       <property name="text">
+        <string>服从调剂</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSplitter" name="splitter_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>641</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit_History">
+     <property name="placeholderText">
+      <string>高中曾任职务 及所获奖项 </string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_SelfJudgement">
+     <property name="placeholderText">
+      <string>自我评价 及特长爱好 </string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_Realization">
+     <property name="placeholderText">
+      <string>对学生会（团学组织）的认识与构想</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>生成志愿表</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
