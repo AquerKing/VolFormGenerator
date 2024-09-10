@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLabel>
+#include <QAxObject>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,10 +26,16 @@ private slots:
     void on_comboBox_Center_currentIndexChanged(int index);
 
     void on_pushButton_clicked();
+    void on_pushButton_ChooseImage_clicked();
+
+    void on_pushButton_Generate_clicked();
 
 private:
     Ui::MainWindow *ui;
 
     int checkedSessionIndex;
+    QString fileName;
+
+    bool insertTextAtBookmark(QAxObject* doc, QString bookmarkName, QString text);
 };
 #endif // MAINWINDOW_H
